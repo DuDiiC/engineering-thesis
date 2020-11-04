@@ -123,9 +123,9 @@ Czyli które informacje z bazy danych zostają z poszczególnych tabel.
 | `total_unique_committers` (?) | liczba wszystkich unikalnych commitujących od początku projektu | <span style="color:blue">NEEDED?</span> |
 | `new_commit_comments` | liczba nowych komentarzy commitów w miesiącu (to może jakoś rozdzielić ze słowami kluczowymi?) | <span style="color:red">do przemyślenia</span> |
 | `total_commit_comments` (?) | liczba wszystkich komentarzy commitów od początku projektu | <span style="color:blue">NEEDED?</span> |
-| `new_issues` | liczba nowych issues w miesiącu | <span style="color:yellow">NOT_IMPLEMENTED</span> |
+| `new_issues` | liczba nowych issues w miesiącu | <span style="color:green">IMPLEMENTED</span> |
 | `total_issues` (?) | liczba wszystkich issues od początku projektu | <span style="color:blue">NEEDED?</span>
-| `new_issue_comments` | liczba nowych kommentarzy commitów w miesiącu | <span style="color:yellow">NOT_IMPLEMENTED</span> |
+| `new_issue_comments` | liczba nowych kommentarzy commitów w miesiącu | <span style="color:green">IMPLEMENTED</span> |
 | `total_issue_comments` (?) | liczba wszystkich komentarzy issues od początku projektu | <span style="color:blue">NEEDED?</span> |
 | `new_opened_merged_pull_requests` | liczba nowootwartych pull requestów w miesiącu, które będą zmergowane | <span style="color:yellow">NOT_IMPLEMENTED</span> |
 | `new_merged_pull_requests` | liczba zmergowanych pull requestów w miesiącu | <span style="color:yellow">NOT_IMPLEMENTED</span> |
