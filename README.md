@@ -112,14 +112,15 @@ Czyli które informacje z bazy danych zostają z poszczególnych tabel.
 
 | parametr | opis | status |
 | :---: | :---: | :---: |
-| `project_id` | id projektu | <span style="color:green">IMPLEMENTED</span> |
-| `year` | rok wyciągnięty z daty | <span style="color:green">IMPLEMENTED</span> |
-| `month` | miesiąc wyciągnięty z daty | <span style="color:green">IMPLEMENTED</span> |
+| `project_id` | id projektu | <span style="color:yellow">NOT IMPLEMENTED</span> |
+| `months_from_create` | oznacza wartość, który jest to miesiąc od utworzenia projektu | <span style="color:yellow">NOT_IMPLEMENTED</span> |
+| `year` | rok wyciągnięty z daty dla danych | <span style="color:yellow">NOT IMPLEMENTED</span> |
+| `month` | miesiąc wyciągnięty z daty dla danych | <span style="color:yellow">NOT IMPLEMENTED</span> |
 | `language` | język programowania projektu | <span style="color:yellow">NOT_IMPLEMENTED</span> |
 | `new_commits` | liczba nowych commitów w miesiącu | <span style="color:yellow">NOT_IMPLEMENTED</span> |
 | `total_commits` (?) | liczba wszystkich commitów od początku projektu | <span style="color:blue">NEEDED?</span>
 | `new_unique_commiters` | liczba unikalnych commitujących w miesiącu | <span style="color:yellow">NOT_IMPLEMENTED</span> |
-| `total_unique_commiters` (?) | liczba wszystkich unikalnych commitujących od początku projektu | <span style="color:blue">NEEDED?</span> |
+| `total_unique_committers` (?) | liczba wszystkich unikalnych commitujących od początku projektu | <span style="color:blue">NEEDED?</span> |
 | `new_commit_comments` | liczba nowych komentarzy commitów w miesiącu (to może jakoś rozdzielić ze słowami kluczowymi?) | <span style="color:red">do przemyślenia</span> |
 | `total_commit_comments` (?) | liczba wszystkich komentarzy commitów od początku projektu | <span style="color:blue">NEEDED?</span> |
 | `new_issues` | liczba nowych issues w miesiącu | <span style="color:yellow">NOT_IMPLEMENTED</span> |
