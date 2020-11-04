@@ -140,3 +140,10 @@ Czyli które informacje z bazy danych zostają z poszczególnych tabel.
 
 ### Wartość przewidywana
 `new_watchers` - liczba nowych obserwujących w miesiącu <span style="color:yellow">NOT_IMPLEMENTED</span>
+
+## Kwestia ilości danych //TODO
+
+W wielu przypadkach jest bardzo mała ilość danych. Będzie przez to dużo braków przy mergach - trzeba zastanowić się jak ten problem rozwiązać.
+
+**Pomysł:** przygotować projekty przed mergowaniem w ten sposób, aby zainicjować już wszystkie możliwe `year` i `month` dla tych projektów od momentu utworzenia do ostatniej daty występującej w repozytorium (trzeba sprawdzić jakiej).
+
