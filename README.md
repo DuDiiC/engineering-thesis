@@ -112,11 +112,11 @@ Czyli które informacje z bazy danych zostają z poszczególnych tabel.
 
 | parametr | opis | status |
 | :---: | :---: | :---: |
-| `project_id` | id projektu | <span style="color:yellow">NOT IMPLEMENTED</span> |
-| `months_from_create` | oznacza wartość, który jest to miesiąc od utworzenia projektu | <span style="color:yellow">NOT_IMPLEMENTED</span> |
-| `year` | rok wyciągnięty z daty dla danych | <span style="color:yellow">NOT IMPLEMENTED</span> |
-| `month` | miesiąc wyciągnięty z daty dla danych | <span style="color:yellow">NOT IMPLEMENTED</span> |
-| `language` | język programowania projektu | <span style="color:yellow">NOT_IMPLEMENTED</span> |
+| `project_id` | id projektu | <span style="color:green">IMPLEMENTED</span> |
+| `months_from_create` | oznacza wartość, który jest to miesiąc od utworzenia projektu | <span style="color:green">IMPLEMENTED</span> |
+| `year` | rok wyciągnięty z daty dla danych | <span style="color:green">IMPLEMENTED</span> |
+| `month` | miesiąc wyciągnięty z daty dla danych | <span style="color:green">IMPLEMENTED</span> |
+| `language` | język programowania projektu | <span style="color:green">IMPLEMENTED</span> |
 | `new_commits` | liczba nowych commitów w miesiącu | <span style="color:green">IMPLEMENTED</span> |
 | `total_commits` (?) | liczba wszystkich commitów od początku projektu | <span style="color:blue">NEEDED?</span>
 | `new_unique_committers` | liczba unikalnych commitujących w miesiącu | <span style="color:green">IMPLEMENTED</span> |
