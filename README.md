@@ -112,34 +112,34 @@ Czyli które informacje z bazy danych zostają z poszczególnych tabel.
 
 | parametr | opis | status |
 | ---: | :--- | :---: |
-| `project_id` | id projektu | <span style="color:green">IMPLEMENTED</span> |
-| `months_from_create` | oznacza wartość, który jest to miesiąc od utworzenia projektu | <span style="color:green">IMPLEMENTED</span> |
-| `year` | rok wyciągnięty z daty dla danych | <span style="color:green">IMPLEMENTED</span> |
-| `month` | miesiąc wyciągnięty z daty dla danych | <span style="color:green">IMPLEMENTED</span> |
-| `language` | język programowania projektu | <span style="color:green">IMPLEMENTED</span> |
-| `new_commits` | liczba nowych commitów w miesiącu | <span style="color:green">IMPLEMENTED</span> |
-| `total_commits` (?) | liczba wszystkich commitów od początku projektu | <span style="color:green">IMPLEMENTED</span>
-| `unique_committers` | liczba unikalnych commitujących w miesiącu | <span style="color:green">IMPLEMENTED</span> |
-| `total_unique_committers` (?) | liczba wszystkich unikalnych commitujących od początku projektu | <span style="color:green">IMPLEMENTED</span> |
+| `project_id` | id projektu | <span style="color:green">**IMPLEMENTED**</span> |
+| `months_from_create` | oznacza wartość, który jest to miesiąc od utworzenia projektu | <span style="color:green">**IMPLEMENTED**</span> |
+| `year` | rok wyciągnięty z daty dla danych | <span style="color:green">**IMPLEMENTED**</span> |
+| `month` | miesiąc wyciągnięty z daty dla danych | <span style="color:green">**IMPLEMENTED**</span> |
+| `language` | język programowania projektu | <span style="color:green">**IMPLEMENTED**</span> |
+| `new_commits` | liczba nowych commitów w miesiącu | <span style="color:green">**IMPLEMENTED**</span> |
+| `total_commits` (?) | liczba wszystkich commitów od początku projektu | <span style="color:green">**IMPLEMENTED**</span>
+| `unique_committers` | liczba unikalnych commitujących w miesiącu | <span style="color:green">**IMPLEMENTED**</span> |
+| `total_unique_committers` (?) | liczba wszystkich unikalnych commitujących od początku projektu | <span style="color:green">**IMPLEMENTED**</span> |
 | `new_commit_comments` | liczba nowych komentarzy commitów w miesiącu (to może jakoś rozdzielić ze słowami kluczowymi?) | <span style="color:red">do przemyślenia</span> |
 | `total_commit_comments` (?) | liczba wszystkich komentarzy commitów od początku projektu | <span style="color:orange">NEEDED?</span> |
-| `new_issues` | liczba nowych issues w miesiącu | <span style="color:green">IMPLEMENTED</span> |
-| `total_issues` (?) | liczba wszystkich issues od początku projektu | <span style="color:green">IMPLEMENTED</span>
-| `new_issue_comments` | liczba nowych kommentarzy commitów w miesiącu | <span style="color:green">IMPLEMENTED</span> |
-| `total_issue_comments` (?) | liczba wszystkich komentarzy issues od początku projektu | <span style="color:green">IMPLEMENTED</span> |
-| `new_opened_pull_requests_to_merge` | liczba nowootwartych pull requestów w miesiącu, które będą zmergowane | <span style="color:green">IMPLEMENTED</span> |
-| `new_merged_pull_requests` | liczba zmergowanych pull requestów w miesiącu | <span style="color:green">IMPLEMENTED</span> |
-| `new_closed_merged_pull_requests` | liczba zamkniętych pull requestów w miesiącu, które zostały zmergowane | <span style="color:green">IMPLEMENTED</span> |
-| `total_merged_pull_requests` (?) | liczba wszystkich zmergowanych pull requestów od początku projektu | <span style="color:green">IMPLEMENTED</span> |
-| `new_opened_pull_requests_to_discard` | liczba nowootwartych pull requestów w miesiącu, które nie będą zmergowane | <span style="color:green">IMPLEMENTED</span> |
-| `new_closed_unmerged_pull_requests` | liczba zamkniętych pull requestów w miesiącu, które nie będą zmergowane | <span style="color:green">IMPLEMENTED</span> |
-| `total_unmerged_pull_requests` (?) | liczba wszystich niezmergowanych pull requestów od początku projektu, które zostały zamknięte | <span style="color:green">IMPLEMENTED</span> |
+| `new_issues` | liczba nowych issues w miesiącu | <span style="color:green">**IMPLEMENTED**</span> |
+| `total_issues` (?) | liczba wszystkich issues od początku projektu | <span style="color:green">**IMPLEMENTED**</span>
+| `new_issue_comments` | liczba nowych kommentarzy commitów w miesiącu | <span style="color:green">**IMPLEMENTED**</span> |
+| `total_issue_comments` (?) | liczba wszystkich komentarzy issues od początku projektu | <span style="color:green">**IMPLEMENTED**</span> |
+| `new_opened_pull_requests_to_merge` | liczba nowootwartych pull requestów w miesiącu, które będą zmergowane | <span style="color:green">**IMPLEMENTED**</span> |
+| `new_merged_pull_requests` | liczba zmergowanych pull requestów w miesiącu | <span style="color:green">**IMPLEMENTED**</span> |
+| `new_closed_merged_pull_requests` | liczba zamkniętych pull requestów w miesiącu, które zostały zmergowane | <span style="color:green">**IMPLEMENTED**</span> |
+| `total_merged_pull_requests` (?) | liczba wszystkich zmergowanych pull requestów od początku projektu | <span style="color:green">**IMPLEMENTED**</span> |
+| `new_opened_pull_requests_to_discard` | liczba nowootwartych pull requestów w miesiącu, które nie będą zmergowane | <span style="color:green">**IMPLEMENTED**</span> |
+| `new_closed_unmerged_pull_requests` | liczba zamkniętych pull requestów w miesiącu, które nie będą zmergowane | <span style="color:green">**IMPLEMENTED**</span> |
+| `total_unmerged_pull_requests` (?) | liczba wszystich niezmergowanych pull requestów od początku projektu, które zostały zamknięte | <span style="color:green">**IMPLEMENTED**</span> |
 | `new_pull_request_comments` | liczba komentarzy pull requestów w miesiącu (to może jakoś rozdzielić ze słowami kluczowymi?) | <span style="color:red">do przemyślenia</span> |
 | `total_pull_request_comments` (?) | liczba wszystkich komentarzy pull requestów od początku projektu | <span style="color:orange">NEEDED?</span> |
-| `total_watchers` | łączna liczba obserwujących od początku projektu (nie licząc aktualnego miesiąca) | <span style="color:green">IMPLEMENTED</span>
+| `total_watchers` | łączna liczba obserwujących od początku projektu (nie licząc aktualnego miesiąca) | <span style="color:green">**IMPLEMENTED**</span>
 
 ### Wartość przewidywana
-`new_watchers` - liczba nowych obserwujących w miesiącu <span style="color:green">IMPLEMENTED</span>
+`new_watchers` - liczba nowych obserwujących w miesiącu <span style="color:green">**IMPLEMENTED**</span>
 
 ## Kwestia ilości danych //TODO
 
