@@ -131,9 +131,9 @@ Czyli które informacje z bazy danych zostają z poszczególnych tabel.
 | `new_merged_pull_requests` | liczba zmergowanych pull requestów w miesiącu | <span style="color:green">IMPLEMENTED</span> |
 | `new_closed_merged_pull_requests` | liczba zamkniętych pull requestów w miesiącu, które zostały zmergowane | <span style="color:green">IMPLEMENTED</span> |
 | `total_merged_pull_requests` (?) | liczba wszystkich zmergowanych pull requestów od początku projektu | <span style="color:green">IMPLEMENTED</span> |
-| `new_opened_pull_requests_to_discard` | liczba nowootwartych pull requestów w miesiącu, które nie będą zmergowane | <span style="color:yellow">NOT_IMPLEMENTED</span> |
-| `new_closed_unmerged_pull_requests` | liczba zamkniętych pull requestów w miesiącu, które nie będą zmergowane | <span style="color:yellow">NOT_IMPLEMENTED</span> |
-| `total_unmerged_pull_requests` (?) | liczba wszystich niezmergowanych pull requestów od początku projektu, które zostały zamknięte | <span style="color:orange">NEEDED?</span> |
+| `new_opened_pull_requests_to_discard` | liczba nowootwartych pull requestów w miesiącu, które nie będą zmergowane | <span style="color:green">IMPLEMENTED</span> |
+| `new_closed_unmerged_pull_requests` | liczba zamkniętych pull requestów w miesiącu, które nie będą zmergowane | <span style="color:green">IMPLEMENTED</span> |
+| `total_unmerged_pull_requests` (?) | liczba wszystich niezmergowanych pull requestów od początku projektu, które zostały zamknięte | <span style="color:green">IMPLEMENTED</span> |
 | `new_pull_request_comments` | liczba komentarzy pull requestów w miesiącu (to może jakoś rozdzielić ze słowami kluczowymi?) | <span style="color:red">do przemyślenia</span> |
 | `total_pull_request_comments` (?) | liczba wszystkich komentarzy pull requestów od początku projektu | <span style="color:orange">NEEDED?</span> |
 | `total_watchers` | łączna liczba obserwujących od początku projektu (nie licząc aktualnego miesiąca) | <span style="color:yellow">NOT_IMPLEMENTED</span>
@@ -146,6 +146,8 @@ Czyli które informacje z bazy danych zostają z poszczególnych tabel.
 W wielu przypadkach jest bardzo mała ilość danych. Będzie przez to dużo braków przy mergach - trzeba zastanowić się jak ten problem rozwiązać.
 
 **Pomysł:** przygotować projekty przed mergowaniem w ten sposób, aby zainicjować już wszystkie możliwe `year` i `month` dla tych projektów od momentu utworzenia do ostatniej daty występującej w repozytorium (trzeba sprawdzić jakiej).
+
+## Wątpliwości odnośnie pull requestów
 
 - istnieją pull requesty mające flagę `merged` równą `0` oraz `action` równy `merged` - co to znaczy i co z nimi zrobić?
 - co oznacza, że pull request ma status `merged` i jednocześnie `closed`? Znalazłem informacje, że `closed` mają tylko niezmergowane, natomiast nie sprawdza się to w tym przypadku
