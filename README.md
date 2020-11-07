@@ -136,10 +136,10 @@ Czyli które informacje z bazy danych zostają z poszczególnych tabel.
 | `total_unmerged_pull_requests` (?) | liczba wszystich niezmergowanych pull requestów od początku projektu, które zostały zamknięte | <span style="color:green">IMPLEMENTED</span> |
 | `new_pull_request_comments` | liczba komentarzy pull requestów w miesiącu (to może jakoś rozdzielić ze słowami kluczowymi?) | <span style="color:red">do przemyślenia</span> |
 | `total_pull_request_comments` (?) | liczba wszystkich komentarzy pull requestów od początku projektu | <span style="color:orange">NEEDED?</span> |
-| `total_watchers` | łączna liczba obserwujących od początku projektu (nie licząc aktualnego miesiąca) | <span style="color:yellow">NOT_IMPLEMENTED</span>
+| `total_watchers` | łączna liczba obserwujących od początku projektu (nie licząc aktualnego miesiąca) | <span style="color:green">IMPLEMENTED</span>
 
 ### Wartość przewidywana
-`new_watchers` - liczba nowych obserwujących w miesiącu <span style="color:yellow">NOT_IMPLEMENTED</span>
+`new_watchers` - liczba nowych obserwujących w miesiącu <span style="color:green">IMPLEMENTED</span>
 
 ## Kwestia ilości danych //TODO
 
