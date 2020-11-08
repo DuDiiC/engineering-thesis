@@ -121,8 +121,8 @@ Czyli które informacje z bazy danych zostają z poszczególnych tabel.
 | `total_commits` (?) | liczba wszystkich commitów od początku projektu | <span style="color:green">**IMPLEMENTED**</span>
 | `unique_committers` | liczba unikalnych commitujących w miesiącu | <span style="color:green">**IMPLEMENTED**</span> |
 | `total_unique_committers` (?) | liczba wszystkich unikalnych commitujących od początku projektu | <span style="color:green">**IMPLEMENTED**</span> |
-| `new_commit_comments` | liczba nowych komentarzy commitów w miesiącu (to może jakoś rozdzielić ze słowami kluczowymi?) | <span style="color:red">do przemyślenia</span> |
-| `total_commit_comments` (?) | liczba wszystkich komentarzy commitów od początku projektu | <span style="color:orange">NEEDED?</span> |
+| `new_commit_comments` **!?NLP?!** | liczba nowych komentarzy commitów w miesiącu (*to może jakoś rozdzielić z NLP?*) | <span style="color:green">**IMPLEMENTED**</span> |
+| `total_commit_comments` (?) | liczba wszystkich komentarzy commitów od początku projektu | <span style="color:green">**IMPLEMENTED**</span> |
 | `new_issues` | liczba nowych issues w miesiącu | <span style="color:green">**IMPLEMENTED**</span> |
 | `total_issues` (?) | liczba wszystkich issues od początku projektu | <span style="color:green">**IMPLEMENTED**</span>
 | `new_issue_comments` | liczba nowych kommentarzy commitów w miesiącu | <span style="color:green">**IMPLEMENTED**</span> |
@@ -134,8 +134,8 @@ Czyli które informacje z bazy danych zostają z poszczególnych tabel.
 | `new_opened_pull_requests_to_discard` | liczba nowootwartych pull requestów w miesiącu, które nie będą zmergowane | <span style="color:green">**IMPLEMENTED**</span> |
 | `new_closed_unmerged_pull_requests` | liczba zamkniętych pull requestów w miesiącu, które nie będą zmergowane | <span style="color:green">**IMPLEMENTED**</span> |
 | `total_unmerged_pull_requests` (?) | liczba wszystich niezmergowanych pull requestów od początku projektu, które zostały zamknięte | <span style="color:green">**IMPLEMENTED**</span> |
-| `new_pull_request_comments` | liczba komentarzy pull requestów w miesiącu (to może jakoś rozdzielić ze słowami kluczowymi?) | <span style="color:red">do przemyślenia</span> |
-| `total_pull_request_comments` (?) | liczba wszystkich komentarzy pull requestów od początku projektu | <span style="color:orange">NEEDED?</span> |
+| `new_pull_request_comments` **!?NLP?!** | liczba komentarzy pull requestów w miesiącu (*to może jakoś rozdzielić z NLP?*) | <span style="color:green">**IMPLEMENTED**</span> |
+| `total_pull_request_comments` (?) | liczba wszystkich komentarzy pull requestów od początku projektu | <span style="color:green">**IMPLEMENTED**</span> |
 | `total_watchers` | łączna liczba obserwujących od początku projektu (nie licząc aktualnego miesiąca) | <span style="color:green">**IMPLEMENTED**</span>
 
 ### Wartość przewidywana
