@@ -1,6 +1,0 @@
-# Auto detect text files and perform LF normalization
-* text=auto
-<<<<<<< HEAD
-*.pkl filter=lfs diff=lfs merge=lfs -text
-=======
->>>>>>> 4b50ea7aba49bedc6da4087e4554fba807d3a1b0
