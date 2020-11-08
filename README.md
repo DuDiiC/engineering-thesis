@@ -110,6 +110,27 @@ Czyli które informacje z bazy danych zostają z poszczególnych tabel.
 
 ## DOCELOWY DATAFRAME DO UCZENIA
 
+### Grupowanie danych w szeregi czasowe
+
+Wartości poszczególnych danych grupowane są ze względu na ID repozytorium i a wartości sumowane w odniesieniu dla każdego miesiąca.
+
+- w przypadku obserwujących, commitów i issues operacje będą bardzo podobne:
+
+  - pobranie danych do `DataFrame`
+  - dołożenie kolumn miesiąca (`month`) i roku (`year`) na podstawie kolumny `created_at`
+  - pogrupowanie danych ze względu na ID repozytorium, którego dotyczy, miesiąc oraz rok
+  - wyliczenie łącznej sumy poszczególnych elementów dla każdego z projektów
+
+- w przypadku pull requestów, najpierw potrzebne jest dołączenie informacji o historii, a następnie rozbicie na pull requesty zmergowane i odrzucone oraz poszczególne operacje
+
+- dla komentarzy commitów i issues potrzebne jest najpierw dołączenie informacji, którego projektu dotyczą
+
+Dodatkowo po procesie grupowania zmienione zostaje nazewnictwo kolumn, aby je ustandaryzować i łatwiej zmergować:
+
+- ID repozytorium przechowywane w kolumnie `project_id`
+- ilość nowych danych przechowywana w kolumnie `new_(nazwa_elementu)`
+- łączna ilość danych od początku projektu przechowywana w kolumnie `total_(nazwa_elementu)`
+
 | parametr | opis | status |
 | ---: | :--- | :---: |
 | `project_id` | id projektu | <span style="color:green">**IMPLEMENTED**</span> |
@@ -139,13 +160,8 @@ Czyli które informacje z bazy danych zostają z poszczególnych tabel.
 | `total_watchers` | łączna liczba obserwujących od początku projektu (nie licząc aktualnego miesiąca) | <span style="color:green">**IMPLEMENTED**</span>
 
 ### Wartość przewidywana
+
 `new_watchers` - liczba nowych obserwujących w miesiącu <span style="color:green">**IMPLEMENTED**</span>
-
-## Kwestia ilości danych //TODO
-
-W wielu przypadkach jest bardzo mała ilość danych. Będzie przez to dużo braków przy mergach - trzeba zastanowić się jak ten problem rozwiązać.
-
-**Pomysł:** przygotować projekty przed mergowaniem w ten sposób, aby zainicjować już wszystkie możliwe `year` i `month` dla tych projektów od momentu utworzenia do ostatniej daty występującej w repozytorium (trzeba sprawdzić jakiej).
 
 ## Wątpliwości odnośnie pull requestów
 
