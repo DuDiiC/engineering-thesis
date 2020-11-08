@@ -123,3 +123,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+<<<<<<< HEAD
+=======
+# Pickle files
+*.pkl
+>>>>>>> 4b50ea7aba49bedc6da4087e4554fba807d3a1b0
