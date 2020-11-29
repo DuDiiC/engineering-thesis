@@ -73,11 +73,12 @@ Dla regresji, przewiduję konkretną wartość, dla klasyfikacji przewiduję nal
 
 | Klasa | Liczba nowych obserwujących w miesiącu |
 | :---: | :---: |
-| brak | $0$ |
-| bardzo mało | $[1; 20)$ |
-| mało | $[20; 50)$ |
-| dużo | $[50; 100)$ |
-| bardzo dużo | $100+$
+| brak | `0` |
+| bardzo mało | `[1; 20)` |
+| mało | `[20; 50)` |
+| dużo | `[50; 100)` |
+| bardzo dużo | `100+` |
+
 ## Użyte algorytmy uczenia maszynowego:
 
 | REGRESJA | KLASYFIKACJA |
@@ -90,12 +91,12 @@ Dla regresji, przewiduję konkretną wartość, dla klasyfikacji przewiduję nal
 
 ### Regresja
 
-![Zdjęcie wyników]()
-![Zdjęcie wyników]()
+![MSE](results/regression/porównanie%20modeli%20-%20MSE.jpg)
+![R^2](results/regression/porównanie%20modeli%20-%20R%5E2.jpg)
 
 ### Klasyfikacja
 
-![Zdjęcie wyników]()
+![MATRICES](results/classification/porównanie%20skuteczności%20modeli%20klasyfikacji.png)
 
 # TMP
 
