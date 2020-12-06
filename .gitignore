@@ -126,3 +126,6 @@ dmypy.json
 
 # Pickle files
 *.pkl
+
+# Joblib files
+*.joblib
