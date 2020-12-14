@@ -1,3 +1,5 @@
+> Readme jest nieaktualne, w trakcie przygotowywania. Sam proces implementacyjny został zakończony, istotne są jedynie pliki w głównym katalogu `notebooks`.
+
 ### Aplikacja rozwijana w ramach pracy inżynierskiej o roboczym tytule:
 
 # Wykorzystanie metod uczenia maszynowego na przykładzie predykcji popularności projektów open source na platformie GitHub
@@ -8,6 +10,7 @@
 | :---: | :---: |
 | Python | 3.7.6 |
 | Conda | 4.9.2 |
+| IPython | 7.12.0 |
 | Pandas | 1.1.1 |
 | Scikit-learn | 0.21.3 |
 | Matplotlib | 3.1.1 |
