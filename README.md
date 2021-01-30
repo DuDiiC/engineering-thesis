@@ -1,5 +1,3 @@
-> Readme jest nieaktualne, w trakcie przygotowywania. Sam proces implementacyjny został zakończony, istotne są jedynie pliki w głównym katalogu `notebooks`.
-
 ### Projekt rozwijany w ramach pracy inżynierskiej
 
 # Porównanie metod uczenia maszynowego na przykładzie predykcji popularności projektów open source na platformie Github.
