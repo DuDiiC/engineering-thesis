@@ -12,16 +12,13 @@ keywords: *machine learning, supervised learning, predictions, Python, pandas, s
 
 ## Technologies
 
-|  | version |
-| :---: | :---: |
-| Python | 3.7.6 |
-| Conda | 4.9.2 |
-| IPython | 7.12.0 |
-| Pandas | 1.1.1 |
-| Scikit-learn | 0.21.3 |
-| Matplotlib | 3.1.1 |
-| SQLAlchemy | 1.3.13 |
-| Imbalanced-learn | 0.7.0 |
+| | | | |
+| :---: | :---: | :---: | :---: |
+| Python | 3.7.6 | Conda | 4.9.2 |
+| IPython | 7.12.0 |  Pandas | 1.1.1 |
+| Scikit-learn | 0.21.3 | Matplotlib | 3.1.1 |
+| SQLAlchemy | 1.3.13 | Imbalanced-learn | 0.7.0 |
+| | | |
 
 ### Predicted values:
 
